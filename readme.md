@@ -16,4 +16,14 @@ echo "\n*.tsbuildinfo" >> .gitignore # Also opened a Vite PR https://github.com/
 yq --inplace --output-format=json \
   '.compilerOptions.skipLibCheck = true' \
   tsconfig.node.json # Also opened a Vite PR https://github.com/vitejs/vite/pull/12591
+echo '{\n  "$schema": "https://docs.renovatebot.com/renovate-schema.json",\n  "extends": ["github>karlhorky/renovate-config:default.json5"]\n}' > renovate.json
+pnpm add --save-dev @crxjs/vite-plugin@beta
+# Add changes to vite.config.ts https://crxjs.dev/vite-plugin/getting-started/react/create-project#update-the-vite-config
+touch manifest.json # And add changes to manifest.json https://crxjs.dev/vite-plugin/getting-started/react/create-project#update-the-vite-config
+yq --inplace --output-format=json \
+  '.compilerOptions.resolveJsonModule = true' \
+  tsconfig.node.json
+yq --inplace --output-format=json \
+  '.include = .include + ["manifest.json"]' \
+  tsconfig.node.json
 ```
