@@ -11,6 +11,9 @@ const [major, minor, patch, label = '0'] = packageJson.version
 export default defineManifest(async (env) => ({
   manifest_version: 3,
   name: 'CRXJS React Vite Example',
+  action: {
+    default_popup: 'index.html',
+  },
   // up to four numbers separated by dots
   version: `${major}.${minor}.${patch}.${label}`,
   // semver is OK in "version_name"
