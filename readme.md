@@ -6,7 +6,7 @@ Chrome extension to archive webpages on [archive.ph](https://archive.ph/) and [t
 
 [CRXJS](https://github.com/crxjs/chrome-extension-tools) provides [`@crxjs/vite-plugin`](https://crxjs.dev/vite-plugin/), a plugin for [Vite](https://vitejs.dev/), which allows for easy setup of a browser extension.
 
-These tools didn't work out of the box for TypeScript and ESM. The steps that I took to get it working:
+These tools didn't work out of the box for TypeScript and ESM with `"moduleResolution": "node16"` in `tsconfig.json`. The steps that I took to get it working:
 
 ```bash
 pnpm create vite . --template react-ts
