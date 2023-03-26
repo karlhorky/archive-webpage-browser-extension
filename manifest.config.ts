@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved -- ESLint cannot find this module for some reason
 import { defineManifest } from '@crxjs/vite-plugin';
 import packageJson from './package.json' assert { type: 'json' };
 
@@ -8,12 +9,19 @@ const [major, minor, patch, label = '0'] = packageJson.version
   // split into version parts
   .split(/[.-]/);
 
-export default defineManifest(async (env) => ({
+export default defineManifest(() => ({
   manifest_version: 3,
   name: 'CRXJS React Vite Example',
-  action: {
-    default_popup: 'index.html',
+  background: {
+    service_worker: 'src/background.ts',
+    type: 'module',
   },
+  action: {
+    default_title: 'CRXJS React sssssssssssVite Example',
+    // default_popup: 'index.html',
+  },
+  permissions: ['scripting', 'tabs'],
+  host_permissions: ['http://*/', 'https://*/'],
   // up to four numbers separated by dots
   version: `${major}.${minor}.${patch}.${label}`,
   // semver is OK in "version_name"

@@ -5,9 +5,11 @@
     "module": "ESNext",
     "moduleResolution": "Node16",
     "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
     "resolveJsonModule": true
   },
   "include": [
+    ".eslintrc.cjs",
     "vite.config.ts",
     "manifest.config.ts",
     "package.json"

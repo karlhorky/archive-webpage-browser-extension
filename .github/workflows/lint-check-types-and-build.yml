@@ -16,7 +16,7 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
-      # - run: pnpm eslint . --max-warnings 0
+      - run: pnpm eslint . --max-warnings 0
       - run: pnpm tsc
       - run: pnpm tsc --project tsconfig.node.json --noEmit
       - name: Build extension

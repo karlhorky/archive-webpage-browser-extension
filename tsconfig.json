@@ -13,6 +13,7 @@
     "moduleResolution": "Node16",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "strictNullChecks": true,
     "noEmit": true,
     "jsx": "react-jsx"
   },
