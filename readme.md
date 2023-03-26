@@ -26,4 +26,13 @@ yq --inplace --output-format=json \
 yq --inplace --output-format=json \
   '.include = .include + ["manifest.json"]' \
   tsconfig.node.json
+yq --inplace --output-format=json \
+  '.compilerOptions.moduleResolution = "Node16"' \
+  tsconfig.json # And add .js to the App import in src/main.tsx
+yq --inplace --output-format=json \
+  '.compilerOptions.moduleResolution = "Node16"' \
+  tsconfig.node.json
+pnpm patch @vitejs/plugin-react --edit-dir ./node_modules/.patch
+# Edit package.json and copy dist/index.d.ts to dist.d.mts https://github.com/vitejs/vite-plugin-react/issues/104#issuecomment-1483879451
+pnpm patch-commit ./node_modules/.patch
 ```
