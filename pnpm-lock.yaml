@@ -1,5 +1,10 @@
 lockfileVersion: 5.4
 
+patchedDependencies:
+  '@vitejs/plugin-react@3.1.0':
+    hash: 2zahclgxkduf4e5evghw7snxjy
+    path: patches/@vitejs__plugin-react@3.1.0.patch
+
 specifiers:
   '@crxjs/vite-plugin': 2.0.0-beta.15
   '@types/react': 18.0.29
@@ -18,7 +23,7 @@ devDependencies:
   '@crxjs/vite-plugin': 2.0.0-beta.15
   '@types/react': 18.0.29
   '@types/react-dom': 18.0.11
-  '@vitejs/plugin-react': 3.1.0_vite@4.2.1
+  '@vitejs/plugin-react': 3.1.0_2zahclgxkduf4e5evghw7snxjy_vite@4.2.1
   typescript: 5.0.2
   vite: 4.2.1
 
@@ -561,7 +566,7 @@ packages:
     resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
     dev: true
 
-  /@vitejs/plugin-react/3.1.0_vite@4.2.1:
+  /@vitejs/plugin-react/3.1.0_2zahclgxkduf4e5evghw7snxjy_vite@4.2.1:
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -576,6 +581,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+    patched: true
 
   /@webcomponents/custom-elements/1.5.1:
     resolution: {integrity: sha512-6T/XT3S1UHDlRWFSxRXdeSoYWczEl78sygNPS7jDyHVrfZcF/pUtWGYgxF4uviH59iPVw1eOWbhubm8CqO0MpA==}

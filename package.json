@@ -19,5 +19,10 @@
     "@vitejs/plugin-react": "3.1.0",
     "typescript": "5.0.2",
     "vite": "4.2.1"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "@vitejs/plugin-react@3.1.0": "patches/@vitejs__plugin-react@3.1.0.patch"
+    }
   }
 }
