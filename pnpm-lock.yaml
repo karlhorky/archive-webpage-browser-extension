@@ -1,24 +1,24 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/react': ^18.0.28
-  '@types/react-dom': ^18.0.11
-  '@vitejs/plugin-react': ^3.1.0
-  react: ^18.2.0
-  react-dom: ^18.2.0
-  typescript: ^4.9.3
-  vite: ^4.2.0
+  '@types/react': 18.0.28
+  '@types/react-dom': 18.0.11
+  '@vitejs/plugin-react': 3.1.0
+  react: 18.2.0
+  react-dom: 18.2.0
+  typescript: 4.9.3
+  vite: 4.2.0
 
 dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
-  '@types/react': 18.0.29
+  '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
-  '@vitejs/plugin-react': 3.1.0_vite@4.2.1
-  typescript: 4.9.5
-  vite: 4.2.1
+  '@vitejs/plugin-react': 3.1.0_vite@4.2.0
+  typescript: 4.9.3
+  vite: 4.2.0
 
 packages:
 
@@ -493,11 +493,11 @@ packages:
   /@types/react-dom/18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
-      '@types/react': 18.0.29
+      '@types/react': 18.0.28
     dev: true
 
-  /@types/react/18.0.29:
-    resolution: {integrity: sha512-wXHktgUABxplw1+UnljseDq4+uztQyp2tlWZRIxHlpchsCFqiYkvaDS8JR7eKOQm8wziTH/el5qL7D6gYNkYcw==}
+  /@types/react/18.0.28:
+    resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -508,7 +508,7 @@ packages:
     resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
     dev: true
 
-  /@vitejs/plugin-react/3.1.0_vite@4.2.1:
+  /@vitejs/plugin-react/3.1.0_vite@4.2.0:
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -519,7 +519,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.21.3
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.2.1
+      vite: 4.2.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -807,8 +807,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /typescript/4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
+  /typescript/4.9.3:
+    resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
@@ -824,8 +824,8 @@ packages:
       picocolors: 1.0.0
     dev: true
 
-  /vite/4.2.1:
-    resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
+  /vite/4.2.0:
+    resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
