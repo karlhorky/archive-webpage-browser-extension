@@ -10,13 +10,13 @@ const [major, minor, patch, label = '0'] = packageJson.version
 
 export default defineManifest(() => ({
   manifest_version: 3,
-  name: 'CRXJS React Vite Example',
+  name: 'Archive Webpage',
   background: {
     service_worker: 'src/background.ts',
     type: 'module',
   },
   action: {
-    default_title: 'CRXJS React sssssssssssVite Example',
+    default_title: 'Archive webpage to archive.ph & Wayback Machine',
     // default_popup: 'index.html',
   },
   permissions: ['scripting', 'tabs'],
