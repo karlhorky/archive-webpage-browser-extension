@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/no-unresolved -- ESLint cannot find this module for some reason
-import { defineManifest } from '@crxjs/vite-plugin';
+import { defineManifest } from '@crxjs/vite-plugin/dist/index.js';
 import packageJson from './package.json' assert { type: 'json' };
 
 // Convert from SemVer, eg. 0.1.0-beta6 becomes:
