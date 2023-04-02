@@ -23,6 +23,4 @@ export default defineManifest(() => ({
   host_permissions: ['http://*/', 'https://*/'],
   // Version can be up to four numbers separated by dots
   version: `${major}.${minor}.${patch}.${label}`,
-  // SemVer is OK in "version_name"
-  version_name: packageJson.version,
 }));
