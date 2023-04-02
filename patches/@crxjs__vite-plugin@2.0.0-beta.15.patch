@@ -1,0 +1,4 @@
+diff --git a/dist/index.d.ts b/dist/index.d.mts
+similarity index 100%
+rename from dist/index.d.ts
+rename to dist/index.d.mts
