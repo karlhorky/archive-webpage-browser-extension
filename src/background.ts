@@ -1,5 +1,3 @@
-// import content from './content.js?script';
-
 chrome.action.onClicked.addListener(async (tab) => {
   if (tab.id) {
     await chrome.tabs.create({
@@ -12,9 +10,5 @@ chrome.action.onClicked.addListener(async (tab) => {
       index: tab.index + 2,
       active: false,
     });
-    // chrome.scripting.executeScript({
-    //   files: [content],
-    //   target: { tabId: tab.id },
-    // });
   }
 });

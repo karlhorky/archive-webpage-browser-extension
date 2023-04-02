@@ -19,7 +19,7 @@ export default defineManifest(() => ({
     default_title: 'Archive webpage to archive.ph & Wayback Machine',
     // default_popup: 'index.html',
   },
-  permissions: ['scripting', 'tabs'],
+  permissions: ['tabs'],
   host_permissions: ['http://*/', 'https://*/'],
   // Version can be up to four numbers separated by dots
   version: `${major}.${minor}.${patch}.${label}`,
