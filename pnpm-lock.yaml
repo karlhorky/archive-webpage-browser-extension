@@ -50,9 +50,6 @@ devDependencies:
   '@typescript-eslint/parser':
     specifier: 5.57.1
     version: 5.57.1(eslint@8.37.0)(typescript@5.0.3)
-  '@upleveled/eslint-plugin-upleveled':
-    specifier: 2.1.6
-    version: 2.1.6(eslint@8.37.0)
   '@vitejs/plugin-react':
     specifier: 3.1.0
     version: 3.1.0(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@4.2.1)
@@ -98,6 +95,9 @@ devDependencies:
   eslint-plugin-unicorn:
     specifier: 46.0.0
     version: 46.0.0(eslint@8.37.0)
+  eslint-plugin-upleveled:
+    specifier: 2.1.7
+    version: 2.1.7(eslint@8.37.0)
   typescript:
     specifier: 5.0.3
     version: 5.0.3
@@ -2021,6 +2021,7 @@ packages:
       eslint: ^8.23.0
     dependencies:
       eslint: 8.37.0
+    dev: false
 
   /@vitejs/plugin-react@3.1.0(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@4.2.1):
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
@@ -2956,6 +2957,14 @@ packages:
       safe-regex: 2.1.1
       semver: 7.3.8
       strip-indent: 3.0.0
+
+  /eslint-plugin-upleveled@2.1.7(eslint@8.37.0):
+    resolution: {integrity: sha512-kLFzp4Ky3u+cKAB/VQsDIjoUJYRt0nW3ULoXh+0eCG45EEmudcmU/9+HaDj2etzbtQIT2CQPbCTCAbpHRdfo5g==}
+    peerDependencies:
+      eslint: ^8.37.0
+    dependencies:
+      eslint: 8.37.0
+    dev: true
 
   /eslint-scope@5.1.1:
     resolution: {integrity: sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==}
