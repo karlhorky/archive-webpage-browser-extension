@@ -2,6 +2,8 @@
 
 Chrome extension to archive webpages on [archive.ph](https://archive.ph/) and [the Internet Archive Wayback Machine](https://web.archive.org/)
 
+[Archive Webpage - Chrome Web Store](https://chrome.google.com/webstore/detail/archive-webpage/dnakmmcpobpgknolnfoiagbmpmglnckn)
+
 ## How This Extension was Created
 
 [CRXJS](https://github.com/crxjs/chrome-extension-tools) provides [`@crxjs/vite-plugin`](https://crxjs.dev/vite-plugin/), a plugin for [Vite](https://vitejs.dev/), which allows for easy setup of a browser extension.
