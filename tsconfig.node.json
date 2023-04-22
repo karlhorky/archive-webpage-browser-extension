@@ -12,6 +12,7 @@
     ".eslintrc.cjs",
     "vite.config.ts",
     "manifest.config.ts",
-    "package.json"
+    "package.json",
+    "prettier.config.cjs"
   ]
 }
