@@ -21,35 +21,35 @@ devDependencies:
     specifier: 2.0.0-beta.16
     version: 2.0.0-beta.16(patch_hash=5enxlxppwkwjefdds6jk5i6cam)
   '@next/eslint-plugin-next':
-    specifier: 13.3.1
-    version: 13.3.1
+    specifier: 13.4.0
+    version: 13.4.0
   '@types/chrome':
-    specifier: 0.0.233
-    version: 0.0.233
+    specifier: 0.0.235
+    version: 0.0.235
   '@types/eslint':
     specifier: 8.37.0
     version: 8.37.0
   '@types/node':
-    specifier: 18.16.1
-    version: 18.16.1
+    specifier: 18.16.3
+    version: 18.16.3
   '@types/react':
-    specifier: 18.2.0
-    version: 18.2.0
+    specifier: 18.2.5
+    version: 18.2.5
   '@types/react-dom':
-    specifier: 18.2.1
-    version: 18.2.1
+    specifier: 18.2.3
+    version: 18.2.3
   '@vitejs/plugin-react':
     specifier: 4.0.0
-    version: 4.0.0(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@4.3.3)
+    version: 4.0.0(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@4.3.4)
   eslint-config-upleveled:
     specifier: ^4.1.6
-    version: 4.1.6(@babel/eslint-parser@7.21.3)(@next/eslint-plugin-next@13.3.1)(@types/eslint@8.37.0)(@types/node@18.16.1)(@types/react-dom@18.2.1)(@types/react@18.2.0)(@typescript-eslint/eslint-plugin@5.59.0)(@typescript-eslint/parser@5.59.0)(eslint-config-react-app@7.0.1)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-flowtype@8.0.3)(eslint-plugin-import@2.27.5)(eslint-plugin-jest@27.2.1)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.19.0)(eslint-plugin-testing-library@5.10.3)(eslint-plugin-unicorn@46.0.0)(eslint-plugin-upleveled@2.1.7)(eslint@8.39.0)(typescript@5.0.4)
+    version: 4.1.6(@babel/eslint-parser@7.21.3)(@next/eslint-plugin-next@13.4.0)(@types/eslint@8.37.0)(@types/node@18.16.3)(@types/react-dom@18.2.3)(@types/react@18.2.5)(@typescript-eslint/eslint-plugin@5.59.0)(@typescript-eslint/parser@5.59.0)(eslint-config-react-app@7.0.1)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-flowtype@8.0.3)(eslint-plugin-import@2.27.5)(eslint-plugin-jest@27.2.1)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.19.0)(eslint-plugin-testing-library@5.10.3)(eslint-plugin-unicorn@46.0.0)(eslint-plugin-upleveled@2.1.7)(eslint@8.39.0)(typescript@5.0.4)
   typescript:
     specifier: 5.0.4
     version: 5.0.4
   vite:
-    specifier: 4.3.3
-    version: 4.3.3(@types/node@18.16.1)
+    specifier: 4.3.4
+    version: 4.3.4(@types/node@18.16.3)
 
 packages:
 
@@ -1730,8 +1730,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@next/eslint-plugin-next@13.3.1:
-    resolution: {integrity: sha512-Hpd74UrYGF+bq9bBSRDXRsRfaWkPpcwjhvachy3sr/R/5fY6feC0T0s047pUthyqcaeNsqKOY1nUGQQJNm4WyA==}
+  /@next/eslint-plugin-next@13.4.0:
+    resolution: {integrity: sha512-ZqQi1slguDavpuNUcl9va8+WtHHpgymIW2g+4Gs9FdI+5rjAvrUqqjfCec2hi3Cjbbp7zULFQuAiPwASKHbrxw==}
     dependencies:
       glob: 7.1.7
     dev: true
@@ -1787,8 +1787,8 @@ packages:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
     dev: true
 
-  /@types/chrome@0.0.233:
-    resolution: {integrity: sha512-T3HUW8LDhHfYPbUkOZilhnqX04sZqEFIQO0OIG8byZ7PBIk2jYys1AkNg56UbtKbsh3dABmOniK+0Q3oyo7Sxg==}
+  /@types/chrome@0.0.235:
+    resolution: {integrity: sha512-SPj9A4E35SBJICjnL04KZEA/eVr8Km7gbnEfAxzaU2fHpLSnN64OPnfOR3EpDJXXpSORKTn3OUDwugw+rYBBXA==}
     dependencies:
       '@types/filesystem': 0.0.32
       '@types/har-format': 1.2.10
@@ -1827,8 +1827,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@18.16.1:
-    resolution: {integrity: sha512-DZxSZWXxFfOlx7k7Rv4LAyiMroaxa3Ly/7OOzZO8cBNho0YzAi4qlbrx8W27JGqG57IgR/6J7r+nOJWw6kcvZA==}
+  /@types/node@18.16.3:
+    resolution: {integrity: sha512-OPs5WnnT1xkCBiuQrZA4+YAV4HEJejmHneyraIaxsbev5yCEr6KMwINNFP9wQeFIw8FWcoTqF3vQsa5CDaI+8Q==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -1843,14 +1843,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.2.1:
-    resolution: {integrity: sha512-8QZEV9+Kwy7tXFmjJrp3XUKQSs9LTnE0KnoUb0YCguWBiNW0Yfb2iBMYZ08WPg35IR6P3Z0s00B15SwZnO26+w==}
+  /@types/react-dom@18.2.3:
+    resolution: {integrity: sha512-hxXEXWxFJXbY0LMj/T69mznqOZJXNtQMqVxIiirVAZnnpeYiD4zt+lPsgcr/cfWg2VLsxZ1y26vigG03prYB+Q==}
     dependencies:
-      '@types/react': 18.2.0
+      '@types/react': 18.2.5
     dev: true
 
-  /@types/react@18.2.0:
-    resolution: {integrity: sha512-0FLj93y5USLHdnhIhABk83rm8XEGA7kH3cr+YUlvxoUGp1xNt/DINUMvqPxLyOQMzLmZe8i4RTHbvb8MC7NmrA==}
+  /@types/react@18.2.5:
+    resolution: {integrity: sha512-RuoMedzJ5AOh23Dvws13LU9jpZHIc/k90AgmK7CecAYeWmSr3553L4u5rk4sWAPBuQosfT7HmTfG4Rg5o4nGEA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -2070,7 +2070,7 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: true
 
-  /@vitejs/plugin-react@4.0.0(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@4.3.3):
+  /@vitejs/plugin-react@4.0.0(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@4.3.4):
     resolution: {integrity: sha512-HX0XzMjL3hhOYm+0s95pb0Z7F8O81G7joUHgfDd/9J/ZZf5k4xX6QAMFkKsHFxaHlf6X7GD7+XuaZ66ULiJuhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2080,7 +2080,7 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.21.0(@babel/core@7.21.4)
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.21.4)
       react-refresh: 0.14.0
-      vite: 4.3.3(@types/node@18.16.1)
+      vite: 4.3.4(@types/node@18.16.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2804,7 +2804,7 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-config-upleveled@4.1.6(@babel/eslint-parser@7.21.3)(@next/eslint-plugin-next@13.3.1)(@types/eslint@8.37.0)(@types/node@18.16.1)(@types/react-dom@18.2.1)(@types/react@18.2.0)(@typescript-eslint/eslint-plugin@5.59.0)(@typescript-eslint/parser@5.59.0)(eslint-config-react-app@7.0.1)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-flowtype@8.0.3)(eslint-plugin-import@2.27.5)(eslint-plugin-jest@27.2.1)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.19.0)(eslint-plugin-testing-library@5.10.3)(eslint-plugin-unicorn@46.0.0)(eslint-plugin-upleveled@2.1.7)(eslint@8.39.0)(typescript@5.0.4):
+  /eslint-config-upleveled@4.1.6(@babel/eslint-parser@7.21.3)(@next/eslint-plugin-next@13.4.0)(@types/eslint@8.37.0)(@types/node@18.16.3)(@types/react-dom@18.2.3)(@types/react@18.2.5)(@typescript-eslint/eslint-plugin@5.59.0)(@typescript-eslint/parser@5.59.0)(eslint-config-react-app@7.0.1)(eslint-import-resolver-typescript@3.5.5)(eslint-plugin-flowtype@8.0.3)(eslint-plugin-import@2.27.5)(eslint-plugin-jest@27.2.1)(eslint-plugin-jsx-a11y@6.7.1)(eslint-plugin-jsx-expressions@1.3.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint-plugin-security@1.7.1)(eslint-plugin-sonarjs@0.19.0)(eslint-plugin-testing-library@5.10.3)(eslint-plugin-unicorn@46.0.0)(eslint-plugin-upleveled@2.1.7)(eslint@8.39.0)(typescript@5.0.4):
     resolution: {integrity: sha512-D67KefgbjB+Lm3GotUv25pVid/Jj6I6H0nk5AGGLQpMu143PX+AwnMqFjoo5ya83ZXkviNM3bmM6R8MXcWfZiA==}
     hasBin: true
     peerDependencies:
@@ -2834,11 +2834,11 @@ packages:
       typescript: ^5.0.4
     dependencies:
       '@babel/eslint-parser': 7.21.3(@babel/core@7.21.4)(eslint@8.39.0)
-      '@next/eslint-plugin-next': 13.3.1
+      '@next/eslint-plugin-next': 13.4.0
       '@types/eslint': 8.37.0
-      '@types/node': 18.16.1
-      '@types/react': 18.2.0
-      '@types/react-dom': 18.2.1
+      '@types/node': 18.16.3
+      '@types/react': 18.2.5
+      '@types/react-dom': 18.2.3
       '@typescript-eslint/eslint-plugin': 5.59.0(@typescript-eslint/parser@5.59.0)(eslint@8.39.0)(typescript@5.0.4)
       '@typescript-eslint/parser': 5.59.0(eslint@8.39.0)(typescript@5.0.4)
       eslint: 8.39.0
@@ -4761,8 +4761,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite@4.3.3(@types/node@18.16.1):
-    resolution: {integrity: sha512-MwFlLBO4udZXd+VBcezo3u8mC77YQk+ik+fbc0GZWGgzfbPP+8Kf0fldhARqvSYmtIWoAJ5BXPClUbMTlqFxrA==}
+  /vite@4.3.4(@types/node@18.16.3):
+    resolution: {integrity: sha512-f90aqGBoxSFxWph2b39ae2uHAxm5jFBBdnfueNxZAT1FTpM13ccFQExCaKbR2xFW5atowjleRniQ7onjJ22QEg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -4786,7 +4786,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.16.1
+      '@types/node': 18.16.3
       esbuild: 0.17.13
       postcss: 8.4.23
       rollup: 3.21.0
