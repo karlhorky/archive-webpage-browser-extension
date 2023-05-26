@@ -5,7 +5,7 @@ const config = {
     project: ['./tsconfig.json', './tsconfig.node.json'],
   },
   env: {
-    webextension: true,
+    webextensions: true,
   },
 };
 
