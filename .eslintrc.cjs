@@ -4,6 +4,9 @@ const config = {
   parserOptions: {
     project: ['./tsconfig.json', './tsconfig.node.json'],
   },
+  env: {
+    webextensions: true,
+  },
 };
 
 module.exports = config;
