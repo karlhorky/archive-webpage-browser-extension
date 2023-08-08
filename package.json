@@ -27,8 +27,8 @@
   },
   "pnpm": {
     "patchedDependencies": {
-      "@vitejs/plugin-react@4.0.0": "patches/@vitejs__plugin-react@4.0.0.patch",
-      "@crxjs/vite-plugin@2.0.0-beta.17": "patches/@crxjs__vite-plugin@2.0.0-beta.17.patch"
+      "@vitejs/plugin-react@4.0.4": "patches/@vitejs__plugin-react@4.0.4.patch",
+      "@crxjs/vite-plugin@2.0.0-beta.18": "patches/@crxjs__vite-plugin@2.0.0-beta.18.patch"
     }
   }
 }
