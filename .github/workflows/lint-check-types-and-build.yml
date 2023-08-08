@@ -14,6 +14,27 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: 'pnpm'
+
+      # Fix `pnpm patch` not upgrading patch versions automatically
+      # https://github.com/pnpm/pnpm/issues/5686#issuecomment-1527221879
+      - name: Fix `pnpm patch` not upgrading patch versions automatically
+        env:
+          GITHUB_TOKEN: ${{ secrets.PNPM_PATCH_UPDATE_GITHUB_TOKEN }}
+        run: |
+          ./scripts/fix-pnpm-patches.sh
+
+          git add package.json pnpm-lock.yaml patches
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit, exiting"
+            exit 0
+          fi
+
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git config user.name github-actions[bot]
+
+          git commit -m "Upgrade versions for \`pnpm patch\`"
+          git push origin HEAD:${{ github.ref }}
+
       - name: Install dependencies
         run: pnpm install
       - run: pnpm eslint . --max-warnings 0

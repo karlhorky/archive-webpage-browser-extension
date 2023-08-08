@@ -13,22 +13,22 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@crxjs/vite-plugin": "2.0.0-beta.17",
-    "@next/eslint-plugin-next": "13.4.6",
-    "@types/chrome": "0.0.237",
-    "@types/eslint": "8.40.2",
-    "@types/node": "20.3.1",
-    "@types/react": "18.2.12",
-    "@types/react-dom": "18.2.5",
-    "@vitejs/plugin-react": "4.0.0",
-    "eslint-config-upleveled": "5.0.0",
-    "typescript": "5.1.3",
-    "vite": "4.3.9"
+    "@crxjs/vite-plugin": "2.0.0-beta.18",
+    "@next/eslint-plugin-next": "13.4.13",
+    "@types/chrome": "0.0.243",
+    "@types/eslint": "8.44.2",
+    "@types/node": "20.4.8",
+    "@types/react": "18.2.19",
+    "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react": "4.0.4",
+    "eslint-config-upleveled": "5.0.3",
+    "typescript": "5.1.6",
+    "vite": "4.4.9"
   },
   "pnpm": {
     "patchedDependencies": {
-      "@vitejs/plugin-react@4.0.0": "patches/@vitejs__plugin-react@4.0.0.patch",
-      "@crxjs/vite-plugin@2.0.0-beta.17": "patches/@crxjs__vite-plugin@2.0.0-beta.17.patch"
+      "@vitejs/plugin-react@4.0.4": "patches/@vitejs__plugin-react@4.0.4.patch",
+      "@crxjs/vite-plugin@2.0.0-beta.18": "patches/@crxjs__vite-plugin@2.0.0-beta.18.patch"
     }
   }
 }
