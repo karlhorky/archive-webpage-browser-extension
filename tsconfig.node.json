@@ -2,7 +2,7 @@
   "compilerOptions": {
     "composite": true,
     "skipLibCheck": true,
-    "module": "Node16",
+    "module": "NodeNext",
     "moduleResolution": "Node16",
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": true,
