@@ -19,7 +19,7 @@ jobs:
           cache: 'pnpm'
 
       # Fix `pnpm patch` not upgrading patch versions automatically
-      # https://github.com/pnpm/pnpm/issues/5686#issuecomment-1527221879
+      # https://github.com/pnpm/pnpm/issues/5686#issuecomment-1669538653
       - name: Fix `pnpm patch` not upgrading patch versions automatically
         run: |
           ./scripts/fix-pnpm-patches.sh
