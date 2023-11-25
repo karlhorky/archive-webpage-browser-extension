@@ -34,7 +34,7 @@ jobs:
           git config user.name github-actions[bot]
 
           git commit -m "Upgrade versions for \`pnpm patch\`"
-          git push
+          git push origin HEAD:${{ github.ref }}
 
       - name: Install dependencies
         run: pnpm install
