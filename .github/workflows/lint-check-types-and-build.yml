@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PNPM_PATCH_UPDATE_GITHUB_TOKEN }}
       - uses: pnpm/action-setup@v2
         with:
           version: 'latest'
@@ -18,8 +20,6 @@ jobs:
       # Fix `pnpm patch` not upgrading patch versions automatically
       # https://github.com/pnpm/pnpm/issues/5686#issuecomment-1527221879
       - name: Fix `pnpm patch` not upgrading patch versions automatically
-        env:
-          GITHUB_TOKEN: ${{ secrets.PNPM_PATCH_UPDATE_GITHUB_TOKEN }}
         run: |
           ./scripts/fix-pnpm-patches.sh
 
@@ -33,7 +33,7 @@ jobs:
           git config user.name github-actions[bot]
 
           git commit -m "Upgrade versions for \`pnpm patch\`"
-          git push origin HEAD:${{ github.ref }}
+          git push
 
       - name: Install dependencies
         run: pnpm install
