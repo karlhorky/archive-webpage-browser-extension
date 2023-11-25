@@ -7,7 +7,6 @@
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": true,
     "resolveJsonModule": true,
-    "noEmit": true,
     "checkJs": true
   },
   "include": [
