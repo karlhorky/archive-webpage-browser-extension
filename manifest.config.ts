@@ -10,6 +10,9 @@ const [major, minor, patch, label = '0'] = packageJson.version
 export default defineManifest(() => ({
   manifest_version: 3,
   name: 'Archive Webpage',
+  icons: {
+    128: 'icon.png',
+  },
   background: {
     service_worker: 'src/background.ts',
     type: 'module',
