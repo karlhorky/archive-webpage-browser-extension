@@ -9,6 +9,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.PNPM_PATCH_UPDATE_GITHUB_TOKEN }}
+          fetch-depth: 0
       - uses: pnpm/action-setup@v2
         with:
           version: 'latest'
