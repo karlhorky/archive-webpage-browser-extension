@@ -6,13 +6,15 @@
     "moduleResolution": "Node16",
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "checkJs": true
   },
   "include": [
-    ".eslintrc.cjs",
-    "vite.config.ts",
+    "eslint.config.js",
     "manifest.config.ts",
     "package.json",
-    "prettier.config.cjs"
+    "prettier.config.cjs",
+    "vite.config.ts"
   ]
 }
