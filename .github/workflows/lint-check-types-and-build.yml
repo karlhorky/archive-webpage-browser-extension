@@ -8,8 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # Disable configuring $GITHUB_TOKEN in local git config
           persist-credentials: false
-          fetch-depth: 0
       - uses: pnpm/action-setup@v2
         with:
           version: 'latest'
