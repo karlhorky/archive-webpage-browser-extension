@@ -35,7 +35,7 @@ jobs:
 
           git commit -m "Upgrade versions for \`pnpm patch\`"
           git remote show origin
-          git push https://oauth2:${{ secrets.PNPM_PATCH_UPDATE_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
+          git push https://oauth2:${{ secrets.PNPM_PATCH_UPDATE_GITHUB_TOKEN_2 }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
 
       - name: Install dependencies
         run: pnpm install
