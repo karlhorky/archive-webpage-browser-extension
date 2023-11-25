@@ -14,7 +14,7 @@
     "eslint.config.js",
     "manifest.config.ts",
     "package.json",
-    "prettier.config.cjs",
+    "prettier.config.mjs",
     "vite.config.ts"
   ]
 }

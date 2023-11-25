@@ -3,13 +3,14 @@ import globals from 'globals';
 
 /** @type {import('@typescript-eslint/utils/ts-eslint').FlatConfig.ConfigArray} */
 const config = [
-  ...upleveled,
   {
     ignores: ['dist/**/*'],
+  },
+  ...upleveled,
+  {
     languageOptions: {
       parserOptions: {
-        EXPERIMENTAL_useProjectService: true,
-        project: './tsconfig.json',
+        project: ['./tsconfig.json', './tsconfig.node.json'],
       },
       globals: {
         ...globals.webextensions,
