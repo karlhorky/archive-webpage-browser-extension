@@ -13,12 +13,12 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@crxjs/vite-plugin": "2.0.0-beta.22",
+    "@crxjs/vite-plugin": "2.0.0-beta.23",
     "@next/eslint-plugin-next": "14.0.4",
-    "@types/chrome": "0.0.256",
+    "@types/chrome": "0.0.258",
     "@types/eslint": "8.56.2",
-    "@types/node": "20.11.0",
-    "@types/react": "18.2.47",
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
     "@typescript-eslint/utils": "^6.12.0",
     "@vitejs/plugin-react": "4.2.1",
