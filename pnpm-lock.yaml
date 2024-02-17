@@ -50,10 +50,10 @@ devDependencies:
     version: 4.2.1(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@5.1.3)
   eslint-config-upleveled:
     specifier: 7.8.0
-    version: 7.8.0(@babel/core@7.23.5)(@types/eslint@8.56.2)(@types/node@20.11.19)(@types/react-dom@18.2.19)(@types/react@18.2.55)(eslint@8.56.0)(globals@13.23.0)(typescript@5.3.3)
+    version: 7.8.0(@babel/core@7.23.5)(@types/eslint@8.56.2)(@types/node@20.11.19)(@types/react-dom@18.2.19)(@types/react@18.2.55)(eslint@8.56.0)(globals@14.0.0)(typescript@5.3.3)
   globals:
-    specifier: ^13.23.0
-    version: 13.23.0
+    specifier: ^14.0.0
+    version: 14.0.0
   prettier:
     specifier: ^3.1.0
     version: 3.1.0
@@ -1855,7 +1855,7 @@ packages:
       parse-gitignore: 2.0.0
     dev: true
 
-  /eslint-config-upleveled@7.8.0(@babel/core@7.23.5)(@types/eslint@8.56.2)(@types/node@20.11.19)(@types/react-dom@18.2.19)(@types/react@18.2.55)(eslint@8.56.0)(globals@13.23.0)(typescript@5.3.3):
+  /eslint-config-upleveled@7.8.0(@babel/core@7.23.5)(@types/eslint@8.56.2)(@types/node@20.11.19)(@types/react-dom@18.2.19)(@types/react@18.2.55)(eslint@8.56.0)(globals@14.0.0)(typescript@5.3.3):
     resolution: {integrity: sha512-HCIRGusddoiDgR2vbKeh5vQX2j6sonFKFrUHA2K/aLwZoWWFOwiCR01xLnn/GaSretj2Vw2QEFBjBHm/hgQSkw==}
     engines: {node: '>=20.9.0'}
     hasBin: true
@@ -1889,7 +1889,7 @@ packages:
       eslint-plugin-testing-library: 6.2.0(eslint@8.56.0)(typescript@5.3.3)
       eslint-plugin-unicorn: 51.0.1(eslint@8.56.0)
       eslint-plugin-upleveled: 2.1.9(eslint@8.56.0)
-      globals: 13.23.0
+      globals: 14.0.0
       sort-package-json: 2.7.0
       typescript: 5.3.3
     transitivePeerDependencies:
@@ -2461,6 +2461,11 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       type-fest: 0.20.2
+    dev: true
+
+  /globals@14.0.0:
+    resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
+    engines: {node: '>=18'}
     dev: true
 
   /globalthis@1.0.3:
