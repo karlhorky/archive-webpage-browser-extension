@@ -25,8 +25,8 @@ devDependencies:
     specifier: 2.0.0-beta.23
     version: 2.0.0-beta.23(patch_hash=5enxlxppwkwjefdds6jk5i6cam)
   '@next/eslint-plugin-next':
-    specifier: 14.1.4
-    version: 14.1.4
+    specifier: 14.2.0
+    version: 14.2.0
   '@types/chrome':
     specifier: 0.0.266
     version: 0.0.266
@@ -37,11 +37,11 @@ devDependencies:
     specifier: 20.12.7
     version: 20.12.7
   '@types/react':
-    specifier: 18.2.75
-    version: 18.2.75
+    specifier: 18.2.76
+    version: 18.2.76
   '@types/react-dom':
-    specifier: 18.2.24
-    version: 18.2.24
+    specifier: 18.2.25
+    version: 18.2.25
   '@typescript-eslint/utils':
     specifier: ^7.0.0
     version: 7.6.0(eslint@8.57.0)(typescript@5.4.5)
@@ -50,7 +50,7 @@ devDependencies:
     version: 4.2.1(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@5.2.8)
   eslint-config-upleveled:
     specifier: 8.0.1
-    version: 8.0.1(@babel/core@7.24.4)(@types/eslint@8.56.8)(@types/node@20.12.7)(@types/react-dom@18.2.24)(@types/react@18.2.75)(eslint@8.57.0)(globals@15.0.0)(typescript@5.4.5)
+    version: 8.0.1(@babel/core@7.24.4)(@types/eslint@8.56.8)(@types/node@20.12.7)(@types/react-dom@18.2.25)(@types/react@18.2.76)(eslint@8.57.0)(globals@15.0.0)(typescript@5.4.5)
   globals:
     specifier: ^15.0.0
     version: 15.0.0
@@ -844,6 +844,12 @@ packages:
       glob: 10.3.10
     dev: true
 
+  /@next/eslint-plugin-next@14.2.0:
+    resolution: {integrity: sha512-QkM01VPhwcupezVevy9Uyl1rmpg2PimhMjkb+ySmnPgSKUUM/PGGRQxdFgMpHv/JzQoC8kRySgKeM441GiizcA==}
+    dependencies:
+      glob: 10.3.10
+    dev: true
+
   /@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1:
     resolution: {integrity: sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg==}
     dependencies:
@@ -1073,14 +1079,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.2.24:
-    resolution: {integrity: sha512-cN6upcKd8zkGy4HU9F1+/s98Hrp6D4MOcippK4PoE8OZRngohHZpbJn1GsaDLz87MqvHNoT13nHvNqM9ocRHZg==}
+  /@types/react-dom@18.2.25:
+    resolution: {integrity: sha512-o/V48vf4MQh7juIKZU2QGDfli6p1+OOi5oXx36Hffpc9adsHeXjVp8rHuPkjd8VT8sOJ2Zp05HR7CdpGTIUFUA==}
     dependencies:
-      '@types/react': 18.2.75
+      '@types/react': 18.2.76
     dev: true
 
-  /@types/react@18.2.75:
-    resolution: {integrity: sha512-+DNnF7yc5y0bHkBTiLKqXFe+L4B3nvOphiMY3tuA5X10esmjqk7smyBZzbGTy2vsiy/Bnzj8yFIBL8xhRacoOg==}
+  /@types/react@18.2.76:
+    resolution: {integrity: sha512-T6z/v7YxpswDM61Vq5KoSPTJqCkroJfsDIsvXCr4+qOY6gik5Ju4w0jf67cpC5z7ydOnp/E0V0W08pDRy8u9Xw==}
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.1
@@ -2175,7 +2181,7 @@ packages:
       parse-gitignore: 2.0.0
     dev: true
 
-  /eslint-config-upleveled@8.0.1(@babel/core@7.24.4)(@types/eslint@8.56.8)(@types/node@20.12.7)(@types/react-dom@18.2.24)(@types/react@18.2.75)(eslint@8.57.0)(globals@15.0.0)(typescript@5.4.5):
+  /eslint-config-upleveled@8.0.1(@babel/core@7.24.4)(@types/eslint@8.56.8)(@types/node@20.12.7)(@types/react-dom@18.2.25)(@types/react@18.2.76)(eslint@8.57.0)(globals@15.0.0)(typescript@5.4.5):
     resolution: {integrity: sha512-SLVwgHkTDl0J1aLws9pIyO33u9MghFubX+Kp8cV3SmEcI0oblgwFPTwx+SyR1BweTalS+fxtRt/5iJEssbFhMg==}
     engines: {node: '>=20.9.0'}
     hasBin: true
@@ -2192,8 +2198,8 @@ packages:
       '@next/eslint-plugin-next': 14.1.4
       '@types/eslint': 8.56.8
       '@types/node': 20.12.7
-      '@types/react': 18.2.75
-      '@types/react-dom': 18.2.24
+      '@types/react': 18.2.76
+      '@types/react-dom': 18.2.25
       '@typescript-eslint/eslint-plugin': 7.5.0(@typescript-eslint/parser@7.5.0)(eslint@8.57.0)(typescript@5.4.5)
       '@typescript-eslint/parser': 7.5.0(eslint@8.57.0)(typescript@5.4.5)
       eslint: 8.57.0
@@ -2770,7 +2776,7 @@ packages:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
-      minimatch: 9.0.3
+      minimatch: 9.0.4
       minipass: 7.0.4
       path-scurry: 1.10.1
     dev: true
