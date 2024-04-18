@@ -14,11 +14,11 @@
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "2.0.0-beta.23",
-    "@next/eslint-plugin-next": "14.2.0",
+    "@next/eslint-plugin-next": "14.2.2",
     "@types/chrome": "0.0.266",
-    "@types/eslint": "8.56.8",
+    "@types/eslint": "8.56.9",
     "@types/node": "20.12.7",
-    "@types/react": "18.2.76",
+    "@types/react": "18.2.79",
     "@types/react-dom": "18.2.25",
     "@typescript-eslint/utils": "^7.0.0",
     "@vitejs/plugin-react": "4.2.1",
@@ -26,7 +26,7 @@
     "globals": "^15.0.0",
     "prettier": "^3.1.0",
     "typescript": "5.4.5",
-    "vite": "5.2.8"
+    "vite": "5.2.9"
   },
   "pnpm": {
     "patchedDependencies": {
