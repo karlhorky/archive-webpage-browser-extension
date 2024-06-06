@@ -17,12 +17,12 @@
     "@next/eslint-plugin-next": "14.2.3",
     "@types/chrome": "0.0.268",
     "@types/eslint": "8.56.10",
-    "@types/node": "20.12.13",
+    "@types/node": "20.14.2",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@typescript-eslint/utils": "^7.0.0",
     "@vitejs/plugin-react": "4.3.0",
-    "eslint-config-upleveled": "8.1.9",
+    "eslint-config-upleveled": "8.2.1",
     "globals": "^15.0.0",
     "prettier": "^3.1.0",
     "typescript": "5.4.5",
@@ -34,5 +34,5 @@
       "@vitejs/plugin-react@4.3.0": "patches/@vitejs__plugin-react@4.3.0.patch"
     }
   },
-  "packageManager": "pnpm@9.1.4"
+  "packageManager": "pnpm@9.2.0"
 }
