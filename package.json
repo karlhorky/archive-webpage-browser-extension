@@ -13,11 +13,11 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@crxjs/vite-plugin": "2.0.0-beta.23",
-    "@next/eslint-plugin-next": "14.2.4",
+    "@crxjs/vite-plugin": "2.0.0-beta.25",
+    "@next/eslint-plugin-next": "14.2.5",
     "@types/chrome": "0.0.268",
     "@types/eslint": "8.56.10",
-    "@types/node": "20.14.9",
+    "@types/node": "20.14.10",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@typescript-eslint/utils": "^7.0.0",
@@ -34,5 +34,5 @@
       "@vitejs/plugin-react@4.3.1": "patches/@vitejs__plugin-react@4.3.1.patch"
     }
   },
-  "packageManager": "pnpm@9.4.0"
+  "packageManager": "pnpm@9.5.0"
 }
