@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-misused-promises -- @types/chrome doesn't yet allow for async functions passed as callbacks https://github.com/DefinitelyTyped/DefinitelyTyped/discussions/70099
 chrome.action.onClicked.addListener(async (tab) => {
   if (tab.id) {
     await chrome.tabs.create({
