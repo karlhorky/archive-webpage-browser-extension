@@ -16,7 +16,7 @@
     "@crxjs/vite-plugin": "2.0.0-beta.25",
     "@next/eslint-plugin-next": "14.2.5",
     "@types/chrome": "0.0.269",
-    "@types/eslint": "8.56.10",
+    "@types/eslint": "9.6.0",
     "@types/node": "20.14.12",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
