@@ -7,42 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          # Disable configuring $GITHUB_TOKEN in local git config
-          persist-credentials: false
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
           cache: 'pnpm'
-
-      # Fix `pnpm patch` not upgrading patch versions automatically
-      # https://github.com/pnpm/pnpm/issues/5686#issuecomment-1669538653
-      - name: Fix `pnpm patch` not upgrading patch versions automatically
-        run: |
-          # Exit if no patches/ directory in root
-          if [ ! -d patches ]; then
-            echo "No patches/ directory found in root"
-            exit 0
-          fi
-
-          ./scripts/fix-pnpm-patches.sh
-
-          git add package.json pnpm-lock.yaml patches
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "No changes to commit, exiting"
-            exit 0
-          fi
-
-          git config user.email github-actions[bot]@users.noreply.github.com
-          git config user.name github-actions[bot]
-
-          git commit -m "Upgrade versions for \`pnpm patch\`"
-
-          # Credit for oauth2 syntax is the ad-m/github-push-action GitHub Action:
-          # https://github.com/ad-m/github-push-action/blob/d91a481090679876dfc4178fef17f286781251df/start.sh#L43-L55
-          git push https://oauth2:${{ secrets.PNPM_PATCH_UPDATE_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
-
       - name: Install dependencies
         run: pnpm install
       - run: pnpm eslint . --max-warnings 0
