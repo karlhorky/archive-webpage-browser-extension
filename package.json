@@ -17,7 +17,7 @@
     "@next/eslint-plugin-next": "14.2.5",
     "@types/chrome": "0.0.269",
     "@types/eslint": "9.6.0",
-    "@types/node": "22.0.2",
+    "@types/node": "22.1.0",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@typescript-eslint/utils": "^8.0.0",
@@ -26,7 +26,7 @@
     "globals": "^15.0.0",
     "prettier": "^3.1.0",
     "typescript": "5.5.4",
-    "vite": "5.3.5"
+    "vite": "5.4.0"
   },
   "pnpm": {
     "patchedDependencies": {
@@ -34,5 +34,5 @@
       "@crxjs/vite-plugin@2.0.0-beta.25": "patches/@crxjs__vite-plugin@2.0.0-beta.25.patch"
     }
   },
-  "packageManager": "pnpm@9.6.0"
+  "packageManager": "pnpm@9.7.0"
 }
