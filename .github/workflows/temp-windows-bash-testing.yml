@@ -1,0 +1,14 @@
+name: Temp Windows Bash Testing
+on: push
+
+jobs:
+  temp-windows-bash-testing:
+    name: Temp Windows Bash Testing
+    runs-on: windows-latest
+    timeout-minutes: 5
+    steps:
+      - name: Test command in Windows Bash
+        shell: bash
+        run: |
+          where bash
+          echo $SHELL
