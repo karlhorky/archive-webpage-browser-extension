@@ -12,3 +12,5 @@ jobs:
         run: |
           where bash
           echo $SHELL
+          rm next.config.mjs next.config.ts 2> /dev/null
+          rm next.config.mjs next.config.ts
