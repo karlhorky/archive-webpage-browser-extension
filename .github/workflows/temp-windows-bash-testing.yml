@@ -12,6 +12,8 @@ jobs:
         run: |
           where bash
           echo $SHELL
+          uname -a
+          cat /proc/version
           rm next.config.mjs next.config.ts
           echo 'after 2nd rm'
           rm next.config.mjs next.config.ts 2> /dev/null
