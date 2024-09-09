@@ -20,19 +20,19 @@
     "@types/node": "22.5.4",
     "@types/react": "18.3.5",
     "@types/react-dom": "18.3.0",
-    "@typescript-eslint/utils": "^8.0.0",
+    "@typescript-eslint/utils": "8.4.0",
     "@vitejs/plugin-react": "4.3.1",
     "eslint-config-upleveled": "8.6.16",
-    "globals": "^15.0.0",
-    "prettier": "^3.1.0",
+    "globals": "15.9.0",
+    "prettier": "3.3.3",
     "typescript": "5.5.4",
     "vite": "5.4.3"
   },
   "pnpm": {
     "patchedDependencies": {
-      "@vitejs/plugin-react@4.3.1": "patches/@vitejs__plugin-react@4.3.1.patch",
-      "@crxjs/vite-plugin@2.0.0-beta.25": "patches/@crxjs__vite-plugin@2.0.0-beta.25.patch"
+      "@vitejs/plugin-react": "patches/@vitejs__plugin-react.patch",
+      "@crxjs/vite-plugin": "patches/@crxjs__vite-plugin.patch"
     }
   },
-  "packageManager": "pnpm@9.9.0"
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
 }
