@@ -18,7 +18,7 @@
     "@types/chrome": "0.0.271",
     "@types/eslint": "9.6.1",
     "@types/node": "22.5.5",
-    "@types/react": "18.3.7",
+    "@types/react": "18.3.8",
     "@types/react-dom": "18.3.0",
     "@typescript-eslint/utils": "8.6.0",
     "@vitejs/plugin-react": "4.3.1",
