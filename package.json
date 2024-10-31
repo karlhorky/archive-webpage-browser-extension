@@ -13,16 +13,16 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@crxjs/vite-plugin": "2.0.0-beta.26",
-    "@next/eslint-plugin-next": "15.0.1",
+    "@crxjs/vite-plugin": "2.0.0-beta.28",
+    "@next/eslint-plugin-next": "15.0.2",
     "@types/chrome": "0.0.279",
     "@types/eslint": "9.6.1",
-    "@types/node": "22.7.9",
+    "@types/node": "22.8.5",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
-    "@typescript-eslint/utils": "8.11.0",
+    "@typescript-eslint/utils": "8.12.2",
     "@vitejs/plugin-react": "4.3.3",
-    "eslint-config-upleveled": "8.11.2",
+    "eslint-config-upleveled": "8.11.3",
     "globals": "15.11.0",
     "prettier": "3.3.3",
     "typescript": "5.6.3",
@@ -34,5 +34,5 @@
       "@crxjs/vite-plugin": "patches/@crxjs__vite-plugin.patch"
     }
   },
-  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
