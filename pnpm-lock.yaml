@@ -32,9 +32,6 @@ importers:
       '@types/chrome':
         specifier: 0.0.280
         version: 0.0.280
-      '@types/eslint':
-        specifier: 9.6.1
-        version: 9.6.1
       '@types/node':
         specifier: 22.9.0
         version: 22.9.0
