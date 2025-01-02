@@ -30,11 +30,11 @@ importers:
         specifier: 15.1.3
         version: 15.1.3
       '@types/chrome':
-        specifier: 0.0.287
-        version: 0.0.287
+        specifier: 0.0.288
+        version: 0.0.288
       '@types/node':
-        specifier: 22.10.3
-        version: 22.10.3
+        specifier: 22.10.4
+        version: 22.10.4
       '@types/react':
         specifier: 19.0.2
         version: 19.0.2
@@ -46,10 +46,10 @@ importers:
         version: 8.19.0(eslint@8.57.0)(typescript@5.7.2)
       '@vitejs/plugin-react':
         specifier: 4.3.4
-        version: 4.3.4(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@6.0.6(@types/node@22.10.3))
+        version: 4.3.4(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@6.0.7(@types/node@22.10.4))
       eslint-config-upleveled:
         specifier: 8.12.1
-        version: 8.12.1(@babel/core@7.26.0)(@types/node@22.10.3)(@types/react-dom@19.0.2(@types/react@19.0.2))(@types/react@19.0.2)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.17.0(eslint@8.57.0)(typescript@5.7.2))(eslint@8.57.0))(eslint@8.57.0)(globals@15.14.0)(typescript@5.7.2)
+        version: 8.12.1(@babel/core@7.26.0)(@types/node@22.10.4)(@types/react-dom@19.0.2(@types/react@19.0.2))(@types/react@19.0.2)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.17.0(eslint@8.57.0)(typescript@5.7.2))(eslint@8.57.0))(eslint@8.57.0)(globals@15.14.0)(typescript@5.7.2)
       globals:
         specifier: 15.14.0
         version: 15.14.0
@@ -60,8 +60,8 @@ importers:
         specifier: 5.7.2
         version: 5.7.2
       vite:
-        specifier: 6.0.6
-        version: 6.0.6(@types/node@22.10.3)
+        specifier: 6.0.7
+        version: 6.0.7(@types/node@22.10.4)
 
 packages:
 
@@ -556,8 +556,8 @@ packages:
   '@types/babel__traverse@7.20.2':
     resolution: {integrity: sha512-ojlGK1Hsfce93J0+kn3H5R73elidKUaZonirN33GSmgTUMpzI/MIFfSpF3haANe3G1bEBS9/9/QEqwTzwqFsKw==}
 
-  '@types/chrome@0.0.287':
-    resolution: {integrity: sha512-wWhBNPNXZHwycHKNYnexUcpSbrihVZu++0rdp6GEk5ZgAglenLx+RwdEouh6FrHS0XQiOxSd62yaujM1OoQlZQ==}
+  '@types/chrome@0.0.288':
+    resolution: {integrity: sha512-u0TTY/WlSpI4+pos3jNash4vmoIvK50WFgzoXwWWrFKhPn9ZBmb1qdjUrwXaa8Dq6NXOMBkGIcjYbjK4pNYiEQ==}
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
@@ -574,8 +574,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.10.3':
-    resolution: {integrity: sha512-DifAyw4BkrufCILvD3ucnuN8eydUfc/C1GlyrnI+LK6543w5/L3VeVgf05o3B4fqSXP1dKYLOZsKfutpxPzZrw==}
+  '@types/node@22.10.4':
+    resolution: {integrity: sha512-99l6wv4HEzBQhvaU/UGoeBoCK61SCROQaCCGyQSgX2tEQ3rKkNZ2S7CEWnS/4s1LV+8ODdK21UeyR1fHP2mXug==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -2106,8 +2106,8 @@ packages:
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
-  vite@6.0.6:
-    resolution: {integrity: sha512-NSjmUuckPmDU18bHz7QZ+bTYhRR0iA72cs2QAxCqDpafJ0S6qetco0LB3WW2OxlMHS0JmAv+yZ/R3uPmMyGTjQ==}
+  vite@6.0.7:
+    resolution: {integrity: sha512-RDt8r/7qx9940f8FcOIAH9PTViRrghKaK2K1jY3RaAURrEUbm9Du1mJ72G+jlhtG3WwodnfzY8ORQZbBavZEAQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -2716,7 +2716,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.26.0
 
-  '@types/chrome@0.0.287':
+  '@types/chrome@0.0.288':
     dependencies:
       '@types/filesystem': 0.0.32
       '@types/har-format': 1.2.10
@@ -2734,7 +2734,7 @@ snapshots:
   '@types/json5@0.0.29':
     optional: true
 
-  '@types/node@22.10.3':
+  '@types/node@22.10.4':
     dependencies:
       undici-types: 6.20.0
 
@@ -2869,14 +2869,14 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-react@4.3.4(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@6.0.6(@types/node@22.10.3))':
+  '@vitejs/plugin-react@4.3.4(patch_hash=2zahclgxkduf4e5evghw7snxjy)(vite@6.0.7(@types/node@22.10.4))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.0.6(@types/node@22.10.3)
+      vite: 6.0.7(@types/node@22.10.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -3312,12 +3312,12 @@ snapshots:
       eslint: 8.57.0
       find-up-simple: 1.0.0
 
-  eslint-config-upleveled@8.12.1(@babel/core@7.26.0)(@types/node@22.10.3)(@types/react-dom@19.0.2(@types/react@19.0.2))(@types/react@19.0.2)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.17.0(eslint@8.57.0)(typescript@5.7.2))(eslint@8.57.0))(eslint@8.57.0)(globals@15.14.0)(typescript@5.7.2):
+  eslint-config-upleveled@8.12.1(@babel/core@7.26.0)(@types/node@22.10.4)(@types/react-dom@19.0.2(@types/react@19.0.2))(@types/react@19.0.2)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.17.0(eslint@8.57.0)(typescript@5.7.2))(eslint@8.57.0))(eslint@8.57.0)(globals@15.14.0)(typescript@5.7.2):
     dependencies:
       '@babel/eslint-parser': 7.25.9(@babel/core@7.26.0)(eslint@8.57.0)
       '@eslint/compat': 1.2.4(eslint@8.57.0)
       '@next/eslint-plugin-next': 15.0.3
-      '@types/node': 22.10.3
+      '@types/node': 22.10.4
       '@types/react': 19.0.2
       '@types/react-dom': 19.0.2(@types/react@19.0.2)
       '@typescript-eslint/eslint-plugin': 8.17.0(@typescript-eslint/parser@8.17.0(eslint@8.57.0)(typescript@5.7.2))(eslint@8.57.0)(typescript@5.7.2)
@@ -4600,13 +4600,13 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite@6.0.6(@types/node@22.10.3):
+  vite@6.0.7(@types/node@22.10.4):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.4.49
       rollup: 4.27.4
     optionalDependencies:
-      '@types/node': 22.10.3
+      '@types/node': 22.10.4
       fsevents: 2.3.3
 
   which-boxed-primitive@1.0.2:
