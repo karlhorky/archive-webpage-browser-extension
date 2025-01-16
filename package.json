@@ -15,11 +15,11 @@
   "devDependencies": {
     "@crxjs/vite-plugin": "2.0.0-beta.30",
     "@next/eslint-plugin-next": "15.1.4",
-    "@types/chrome": "0.0.293",
-    "@types/node": "22.10.5",
-    "@types/react": "19.0.4",
-    "@types/react-dom": "19.0.2",
-    "@typescript-eslint/utils": "8.19.1",
+    "@types/chrome": "0.0.297",
+    "@types/node": "22.10.7",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "@typescript-eslint/utils": "8.20.0",
     "@vitejs/plugin-react": "4.3.4",
     "eslint-config-upleveled": "8.12.1",
     "globals": "15.14.0",
@@ -27,7 +27,7 @@
     "typescript": "5.7.3",
     "vite": "6.0.7"
   },
-  "packageManager": "pnpm@9.15.3+sha512.1f79bc245a66eb0b07c5d4d83131240774642caaa86ef7d0434ab47c0d16f66b04e21e0c086eb61e62c77efc4d7f7ec071afad3796af64892fae66509173893a",
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
   "pnpm": {
     "patchedDependencies": {
       "@vitejs/plugin-react": "patches/@vitejs__plugin-react.patch",
