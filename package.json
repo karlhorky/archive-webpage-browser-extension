@@ -21,6 +21,7 @@
     "@types/react-dom": "19.0.3",
     "@typescript-eslint/utils": "8.23.0",
     "@vitejs/plugin-react": "4.3.4",
+    "eslint": "9.20.0",
     "eslint-config-upleveled": "9.0.0",
     "globals": "15.14.0",
     "prettier": "3.4.2",
