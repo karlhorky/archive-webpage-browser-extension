@@ -13,8 +13,9 @@ jobs:
           node-version: 'lts/*'
           cache: 'pnpm'
       - name: Install dependencies
-        # TODO: Switch to `pnpm install` option to fail on
-        # ignored build scripts, when it exists:
+        # Fail on pnpm v10 ignored build scripts
+        #
+        # TODO: Switch to future `pnpm install` option to fail on pnpm v10 ignored build scripts, if accepted:
         # - https://github.com/pnpm/pnpm/issues/9032#issuecomment-2647428724
         # run: pnpm install --<flag here>
         run: pnpm install | while IFS= read -r line; do echo "$line"; echo "$line" | grep -q 'Ignored build scripts:' && false; done
