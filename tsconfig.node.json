@@ -13,7 +13,7 @@
     "eslint.config.js",
     "manifest.config.ts",
     "package.json",
-    "prettier.config.mjs",
+    "prettier.config.js",
     "vite.config.ts"
   ]
 }
