@@ -17,7 +17,7 @@ jobs:
         # ignored build scripts, when it exists:
         # - https://github.com/pnpm/pnpm/issues/9032#issuecomment-2647428724
         # run: pnpm install --<flag here>
-        run: (pnpm install | tee >(cat) | grep -q 'Ignored build scripts:') && false
+        run: (pnpm install | while IFS= read -r line; do echo "$line"; echo "$line" | grep -q 'Ignored build scripts:' && false; done)
       - run: pnpm eslint . --max-warnings 0
       - run: pnpm tsc
       - run: pnpm tsc --project tsconfig.node.json --noEmit
