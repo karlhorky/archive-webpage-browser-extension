@@ -13,7 +13,11 @@ jobs:
           node-version: 'lts/*'
           cache: 'pnpm'
       - name: Install dependencies
-        run: pnpm install
+        # TODO: Switch to `pnpm install` option to fail on
+        # ignored build scripts, when it exists:
+        # - https://github.com/pnpm/pnpm/issues/9032#issuecomment-2647428724
+        # run: pnpm install --<flag here>
+        run: (pnpm install | tee /dev/tty | grep -q 'Ignored build scripts:') && false
       - run: pnpm eslint . --max-warnings 0
       - run: pnpm tsc
       - run: pnpm tsc --project tsconfig.node.json --noEmit
