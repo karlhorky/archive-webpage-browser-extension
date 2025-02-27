@@ -14,21 +14,21 @@
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "2.0.0-beta.31",
-    "@next/eslint-plugin-next": "15.1.7",
-    "@types/chrome": "0.0.304",
-    "@types/node": "22.13.4",
+    "@next/eslint-plugin-next": "15.2.0",
+    "@types/chrome": "0.0.306",
+    "@types/node": "22.13.5",
     "@types/react": "19.0.10",
     "@types/react-dom": "19.0.4",
-    "@typescript-eslint/utils": "8.24.1",
+    "@typescript-eslint/utils": "8.25.0",
     "@vitejs/plugin-react": "4.3.4",
-    "eslint": "9.20.1",
-    "eslint-config-upleveled": "9.1.2",
+    "eslint": "9.21.0",
+    "eslint-config-upleveled": "9.2.0",
     "globals": "16.0.0",
-    "prettier": "3.5.1",
+    "prettier": "3.5.2",
     "typescript": "5.7.3",
-    "vite": "6.1.1"
+    "vite": "6.2.0"
   },
-  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af",
+  "packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
