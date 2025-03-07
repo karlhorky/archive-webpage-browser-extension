@@ -1,5 +1,5 @@
 import { defineManifest } from '@crxjs/vite-plugin/dist/index.mjs';
-import packageJson from './package.json' assert { type: 'json' };
+import packageJson from './package.json' with { type: 'json' };
 
 // Convert from SemVer, eg. 0.1.0-beta6 becomes:
 // major: 0, minor: 1, patch: 0, label: 6
