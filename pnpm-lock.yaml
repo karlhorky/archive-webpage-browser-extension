@@ -33,8 +33,8 @@ importers:
         specifier: 0.0.317
         version: 0.0.317
       '@types/node':
-        specifier: 22.14.1
-        version: 22.14.1
+        specifier: 22.15.0
+        version: 22.15.0
       '@types/react':
         specifier: 19.1.2
         version: 19.1.2
@@ -46,13 +46,13 @@ importers:
         version: 8.31.0(eslint@9.25.1)(typescript@5.8.3)
       '@vitejs/plugin-react':
         specifier: 4.4.1
-        version: 4.4.1(patch_hash=df8e9ce183a8d54b63adb5d7ccfd7bc43708bd7f2174cc9546df318efe306611)(vite@6.3.3(@types/node@22.14.1))
+        version: 4.4.1(patch_hash=df8e9ce183a8d54b63adb5d7ccfd7bc43708bd7f2174cc9546df318efe306611)(vite@6.3.3(@types/node@22.15.0))
       eslint:
         specifier: 9.25.1
         version: 9.25.1
       eslint-config-upleveled:
         specifier: 9.2.3
-        version: 9.2.3(@babel/core@7.26.10)(@types/node@22.14.1)(@types/react-dom@19.1.2(@types/react@19.1.2))(@types/react@19.1.2)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.27.0(eslint@9.25.1)(typescript@5.8.3))(eslint@9.25.1))(eslint@9.25.1)(globals@16.0.0)(typescript@5.8.3)
+        version: 9.2.3(@babel/core@7.26.10)(@types/node@22.15.0)(@types/react-dom@19.1.2(@types/react@19.1.2))(@types/react@19.1.2)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.27.0(eslint@9.25.1)(typescript@5.8.3))(eslint@9.25.1))(eslint@9.25.1)(globals@16.0.0)(typescript@5.8.3)
       globals:
         specifier: 16.0.0
         version: 16.0.0
@@ -64,7 +64,7 @@ importers:
         version: 5.8.3
       vite:
         specifier: 6.3.3
-        version: 6.3.3(@types/node@22.14.1)
+        version: 6.3.3(@types/node@22.15.0)
 
 packages:
 
@@ -635,8 +635,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.14.1':
-    resolution: {integrity: sha512-u0HuPQwe/dHrItgHHpmw3N2fYCR6x4ivMNbPHRkBVP4CvN+kiRrKHWk3i8tXiO/joPwXLMYvF9TTF0eqgHIuOw==}
+  '@types/node@22.15.0':
+    resolution: {integrity: sha512-99S8dWD2DkeE6PBaEDw+In3aar7hdoBvjyJMR6vaKBTzpvR0P00ClzJMOoVrj9D2+Sy/YCwACYHnBTpMhg1UCA==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2893,7 +2893,7 @@ snapshots:
   '@types/json5@0.0.29':
     optional: true
 
-  '@types/node@22.14.1':
+  '@types/node@22.15.0':
     dependencies:
       undici-types: 6.21.0
 
@@ -3116,14 +3116,14 @@ snapshots:
   '@unrs/rspack-resolver-binding-win32-x64-msvc@1.3.0':
     optional: true
 
-  '@vitejs/plugin-react@4.4.1(patch_hash=df8e9ce183a8d54b63adb5d7ccfd7bc43708bd7f2174cc9546df318efe306611)(vite@6.3.3(@types/node@22.14.1))':
+  '@vitejs/plugin-react@4.4.1(patch_hash=df8e9ce183a8d54b63adb5d7ccfd7bc43708bd7f2174cc9546df318efe306611)(vite@6.3.3(@types/node@22.15.0))':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.10)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.10)
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.3.3(@types/node@22.14.1)
+      vite: 6.3.3(@types/node@22.15.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3569,12 +3569,12 @@ snapshots:
       '@eslint/compat': 1.2.7(eslint@9.25.1)
       eslint: 9.25.1
 
-  eslint-config-upleveled@9.2.3(@babel/core@7.26.10)(@types/node@22.14.1)(@types/react-dom@19.1.2(@types/react@19.1.2))(@types/react@19.1.2)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.27.0(eslint@9.25.1)(typescript@5.8.3))(eslint@9.25.1))(eslint@9.25.1)(globals@16.0.0)(typescript@5.8.3):
+  eslint-config-upleveled@9.2.3(@babel/core@7.26.10)(@types/node@22.15.0)(@types/react-dom@19.1.2(@types/react@19.1.2))(@types/react@19.1.2)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.27.0(eslint@9.25.1)(typescript@5.8.3))(eslint@9.25.1))(eslint@9.25.1)(globals@16.0.0)(typescript@5.8.3):
     dependencies:
       '@babel/eslint-parser': 7.26.10(@babel/core@7.26.10)(eslint@9.25.1)
       '@eslint/compat': 1.2.7(eslint@9.25.1)
       '@next/eslint-plugin-next': 15.2.3
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
       '@types/react': 19.1.2
       '@types/react-dom': 19.1.2(@types/react@19.1.2)
       '@typescript-eslint/eslint-plugin': 8.27.0(@typescript-eslint/parser@8.27.0(eslint@9.25.1)(typescript@5.8.3))(eslint@9.25.1)(typescript@5.8.3)
@@ -4868,7 +4868,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  vite@6.3.3(@types/node@22.14.1):
+  vite@6.3.3(@types/node@22.15.0):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.4.4(picomatch@4.0.2)
@@ -4877,7 +4877,7 @@ snapshots:
       rollup: 4.40.0
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.0
       fsevents: 2.3.3
 
   which-boxed-primitive@1.1.1:
