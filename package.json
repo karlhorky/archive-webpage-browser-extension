@@ -31,7 +31,8 @@
   "packageManager": "pnpm@10.13.1",
   "pnpm": {
     "onlyBuiltDependencies": [
-      "esbuild"
+      "esbuild",
+      "unrs-resolver"
     ],
     "patchedDependencies": {
       "@vitejs/plugin-react": "patches/@vitejs__plugin-react.patch",
