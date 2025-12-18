@@ -9,12 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react": "19.2.2",
+    "react-dom": "19.2.2"
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "2.3.0",
-    "@next/eslint-plugin-next": "16.0.8",
+    "@next/eslint-plugin-next": "16.0.9",
     "@types/chrome": "0.1.32",
     "@types/node": "24.10.1",
     "@types/react": "19.2.7",
