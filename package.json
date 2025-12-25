@@ -9,26 +9,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "19.2.2",
-    "react-dom": "19.2.2"
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "2.3.0",
-    "@next/eslint-plugin-next": "16.0.9",
+    "@next/eslint-plugin-next": "16.0.10",
     "@types/chrome": "0.1.32",
-    "@types/node": "25.0.1",
+    "@types/node": "25.0.3",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
-    "@typescript-eslint/utils": "8.49.0",
+    "@typescript-eslint/utils": "8.50.0",
     "@vitejs/plugin-react": "5.1.2",
-    "eslint": "9.39.1",
+    "eslint": "9.39.2",
     "eslint-config-upleveled": "9.4.2",
     "globals": "16.5.0",
     "prettier": "3.7.4",
     "typescript": "5.9.3",
-    "vite": "7.2.7"
+    "vite": "7.3.0"
   },
-  "packageManager": "pnpm@10.25.0",
+  "packageManager": "pnpm@10.26.0",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild",
