@@ -51,8 +51,8 @@ importers:
         specifier: 10.2.1
         version: 10.2.1
       eslint-config-upleveled:
-        specifier: 9.4.9
-        version: 9.4.9(@babel/core@7.29.0)(@types/node@25.5.0)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(@typescript-eslint/utils@8.57.0(eslint@10.2.1)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.56.1(eslint@10.2.1)(typescript@6.0.3))(eslint@10.2.1))(eslint@10.2.1)(globals@17.4.0)(typescript@6.0.3)
+        specifier: 10.0.0
+        version: 10.0.0(@babel/core@7.29.0)(@types/node@25.5.0)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(@typescript-eslint/utils@8.57.0(eslint@10.2.1)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.56.1(eslint@10.2.1)(typescript@6.0.3))(eslint@10.2.1))(eslint@10.2.1)(globals@17.4.0)(typescript@6.0.3)
       globals:
         specifier: 17.4.0
         version: 17.4.0
@@ -1193,8 +1193,8 @@ packages:
     peerDependencies:
       eslint: ^9.5.0 || ^10.0.0
 
-  eslint-config-upleveled@9.4.9:
-    resolution: {integrity: sha512-dirW2OPP9A/p1l/5qZeIu8pSTN2MKdZBt1IsbZWgff9UyED7b1B49dANUF2BqYyAG6i3XebF6xd8+AaePg7+ug==}
+  eslint-config-upleveled@10.0.0:
+    resolution: {integrity: sha512-Ztr+q3HDYlBw8OGOwy2zqdZocFzhIIUZBOe1Hd5eYCPqeBl7KngN/BQ26Elcm5TDPIuktm7lQLRBMB3+mF3f1A==}
     engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
@@ -3487,7 +3487,7 @@ snapshots:
       '@eslint/compat': 2.0.2(eslint@10.2.1)
       eslint: 10.2.1
 
-  eslint-config-upleveled@9.4.9(@babel/core@7.29.0)(@types/node@25.5.0)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(@typescript-eslint/utils@8.57.0(eslint@10.2.1)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.56.1(eslint@10.2.1)(typescript@6.0.3))(eslint@10.2.1))(eslint@10.2.1)(globals@17.4.0)(typescript@6.0.3):
+  eslint-config-upleveled@10.0.0(@babel/core@7.29.0)(@types/node@25.5.0)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(@typescript-eslint/utils@8.57.0(eslint@10.2.1)(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(@typescript-eslint/parser@8.56.1(eslint@10.2.1)(typescript@6.0.3))(eslint@10.2.1))(eslint@10.2.1)(globals@17.4.0)(typescript@6.0.3):
     dependencies:
       '@babel/eslint-parser': 7.28.6(@babel/core@7.29.0)(eslint@10.2.1)
       '@eslint/compat': 2.0.2(eslint@10.2.1)
