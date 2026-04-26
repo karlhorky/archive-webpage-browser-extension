@@ -7,11 +7,12 @@
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": true,
     "resolveJsonModule": true,
-    "checkJs": true
+    "checkJs": true,
+    "types": ["node"]
   },
   "include": [
     "eslint.config.js",
-    "manifest.config.ts",
+
     "package.json",
     "prettier.config.js",
     "vite.config.ts"
