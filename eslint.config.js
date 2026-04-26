@@ -9,9 +9,6 @@ const config = [
   ...upleveled,
   {
     languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.json', './tsconfig.node.json'],
-      },
       globals: {
         ...globals.webextensions,
       },
