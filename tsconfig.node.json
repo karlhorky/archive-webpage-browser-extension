@@ -12,7 +12,7 @@
   },
   "include": [
     "eslint.config.js",
-
+    "manifest.config.ts",
     "package.json",
     "prettier.config.js",
     "vite.config.ts"
