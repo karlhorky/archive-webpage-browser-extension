@@ -2,3 +2,23 @@ diff --git a/dist/index.d.ts b/dist/index.d.mts
 similarity index 100%
 rename from dist/index.d.ts
 rename to dist/index.d.mts
+
+diff --git a/dist/index.mjs b/dist/index.mjs
+--- a/dist/index.mjs
++++ b/dist/index.mjs
+@@ -715,11 +715,11 @@
+         return {
+           ...config,
+           build: {
+-            ...config.build,
+-            rollupOptions: {
+-              ...config.build?.rollupOptions,
++            ...(({rollupOptions, ...rest}) => rest)(config.build ?? {}),
++            rolldownOptions: {
++              ...config.build?.rolldownOptions,
+               // keep exports for content script module api
+-              preserveEntrySignatures: config.build?.rollupOptions?.preserveEntrySignatures ?? "exports-only"
++              preserveEntrySignatures: config.build?.rolldownOptions?.preserveEntrySignatures ?? "exports-only"
+             }
+           }
+         };
