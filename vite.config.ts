@@ -1,4 +1,4 @@
-import { crx } from '@crxjs/vite-plugin';
+import { crx } from '@crxjs/vite-plugin/dist/index.mjs';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 import manifest from './manifest.config.js';
