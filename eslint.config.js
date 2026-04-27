@@ -14,6 +14,15 @@ const config = [
       },
     },
   },
+  {
+    files: ['vite.config.ts'],
+    rules: {
+      'import-x/no-unresolved': [
+        'error',
+        { ignore: ['^@crxjs/vite-plugin$'] },
+      ],
+    },
+  },
 ];
 
 export default config;
