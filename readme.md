@@ -34,9 +34,6 @@ yq --inplace --output-format=json \
 yq --inplace --output-format=json \
   '.compilerOptions.moduleResolution = "Node16"' \
   tsconfig.node.json
-pnpm patch @vitejs/plugin-react --edit-dir ./node_modules/.patch
-# Edit package.json and copy dist/index.d.ts to dist.d.mts https://github.com/vitejs/vite-plugin-react/issues/104#issuecomment-1483879451
-pnpm patch-commit ./node_modules/.patch
 rm manifest.json
 touch manifest.config.ts # And add content from here, keeping the action from manifest.json https://crxjs.dev/vite-plugin/concepts/manifest#typescript
 # Add `assert { type: 'json' }` to manifest.config.ts

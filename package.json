@@ -28,15 +28,11 @@
     "typescript": "6.0.3",
     "vite": "7.3.5"
   },
-  "packageManager": "pnpm@10.32.1",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "unrs-resolver"
-    ],
-    "patchedDependencies": {
-      "@vitejs/plugin-react": "patches/@vitejs__plugin-react.patch",
-      "@crxjs/vite-plugin": "patches/@crxjs__vite-plugin.patch"
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.26.0",
+      "onFail": "download"
     }
   }
 }
