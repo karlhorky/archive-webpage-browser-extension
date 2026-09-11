@@ -203,6 +203,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@crxjs/vite-plugin': de3a19f35a82bb4d5415962811ce2024a3bfb06a4f34e22244feb43de6c03113
+
 importers:
 
   .:
@@ -216,7 +219,7 @@ importers:
     devDependencies:
       '@crxjs/vite-plugin':
         specifier: 2.3.0
-        version: 2.3.0
+        version: 2.3.0(patch_hash=de3a19f35a82bb4d5415962811ce2024a3bfb06a4f34e22244feb43de6c03113)
       '@next/eslint-plugin-next':
         specifier: 16.1.6
         version: 16.1.6
@@ -2592,7 +2595,7 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@crxjs/vite-plugin@2.3.0':
+  '@crxjs/vite-plugin@2.3.0(patch_hash=de3a19f35a82bb4d5415962811ce2024a3bfb06a4f34e22244feb43de6c03113)':
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@webcomponents/custom-elements': 1.5.1

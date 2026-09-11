@@ -12,3 +12,6 @@ minimumReleaseAgeExclude:
   - '@upleveled/*'
   - eslint-config-upleveled
   - stylelint-config-upleveled
+
+patchedDependencies:
+  '@crxjs/vite-plugin': patches/@crxjs__vite-plugin.patch
