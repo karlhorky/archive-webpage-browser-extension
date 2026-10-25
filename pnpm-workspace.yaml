@@ -12,6 +12,8 @@ minimumReleaseAgeExclude:
   - '@upleveled/*'
   - eslint-config-upleveled
   - stylelint-config-upleveled
+  # Renovate security update: vite@7.3.7
+  - vite@7.3.7
 
 patchedDependencies:
   '@crxjs/vite-plugin': patches/@crxjs__vite-plugin.patch
