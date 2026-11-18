@@ -7,9 +7,7 @@ chrome.action.onClicked.addListener(async (tab) => {
       active: false,
     });
     await chrome.tabs.create({
-      url: `https://web.archive.org/web/${new Date().getFullYear()}0000000000*/${
-        tab.url
-      }`,
+      url: `https://web.archive.org/save/${tab.url}`,
       index: tab.index + 2,
       active: false,
     });
